@@ -11,6 +11,7 @@ const layoutData = {
   errors: {
     headerError: "<h1>Error en la aplicación Header</h1>",
     newsError: "<h1>Error en la aplicación News</h1>",
+    registerError: "<h1>Error en la aplicación Register</h1>",
   },
 };
 
