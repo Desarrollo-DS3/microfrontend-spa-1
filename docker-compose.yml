@@ -1,0 +1,20 @@
+version: '3.8'
+
+services:
+  root-conf:
+    build:
+      context: ./rootConf
+    ports:
+      - "9000:9000"
+  
+  mf-header:
+    build:
+      context: ./mf-header
+    ports:
+      - "3001:3001"
+
+  mf-news:
+    build:
+      context: ./mf-news
+    ports:
+      - "3002:3002"
