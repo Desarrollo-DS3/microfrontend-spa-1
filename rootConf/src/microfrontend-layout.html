@@ -6,21 +6,17 @@
 
   -->
 
-  <!-- Example layouts you might find helpful:
-
   <nav>
-    <application name="@org/navbar"></application>
+    <application name="@example/mf-header" error="headerError"></application>
   </nav>
-  <route path="settings">
-    <application name="@org/settings"></application>
-  </route>
 
-  -->
+  <route path="/news">
+    <application name="@example/mf-news" error="newsError"></application>
+  </route>
 
   <main>
     <route default>
-      <application name="@example/mf-header"></application>
-      <application name="@example/mf-news"></application>
+      <h1>Home</h1>
     </route>
   </main>
 
