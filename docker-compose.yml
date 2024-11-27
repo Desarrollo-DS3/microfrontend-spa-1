@@ -18,3 +18,9 @@ services:
       context: ./mf-news
     ports:
       - "3002:3002"
+
+  mf-register:
+    build: 
+      context: ./mf-register
+    ports:
+      - "3003:3003"
